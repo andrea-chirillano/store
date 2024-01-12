@@ -29,7 +29,6 @@ class Products extends BaseController {
             // Cargar la vista de detalles del producto
             return view('products/detail', $data);
         } else {
-            // Producto no encontrado, puedes manejar esto como desees
             return 'Producto no encontrado';
         }
     }

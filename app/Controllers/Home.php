@@ -9,7 +9,7 @@ class Home extends BaseController
     public function index()
     {
         $productModel = new ProductModel();
-        $data['products'] = $productModel->getProducts(); // Asegúrate de que esta función exista en tu modelo
+        $data['products'] = $productModel->getProducts(); 
 
         return view('products/list', $data);
     }
