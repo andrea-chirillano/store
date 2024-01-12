@@ -10,11 +10,11 @@ class ProductModel extends Model {
     protected $allowedFields = ['id', 'name', 'price', 'stock', 'code'];
 
     public function getProducts() {
-        return $this->findAll(); // Devuelve un array de objetos
+        return $this->findAll(); 
     }
 
     public function getProductById($id) {
-        return $this->find($id); // Devuelve un solo objeto
+        return $this->find($id);
     }
 }
 

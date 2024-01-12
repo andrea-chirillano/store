@@ -37,13 +37,11 @@ header {
     margin-bottom: 10px;
 }
 
-/* ... Otros estilos ... */
-
 .product-name {
     display: block;
     padding: 10px;
     background-color: #f4f4f4;
-    text-decoration: none; /* Quitar subrayado */
+    text-decoration: none; 
     color: #333;
     border-radius: 5px;
     transition: background-color 0.3s;
@@ -53,14 +51,14 @@ header {
     background-color: #ddd;
 }
 
-/* Cambiar color y estilos para los enlaces */
+
 .product-name a {
     text-decoration: none;
     color: #333;
 }
 
 .product-name a:hover {
-    text-decoration: underline; /* Añadir subrayado en hover si lo deseas */
+    text-decoration: underline; 
     color: #555;
 }
 
