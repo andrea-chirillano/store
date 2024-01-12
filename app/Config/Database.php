@@ -7,6 +7,16 @@ use CodeIgniter\Database\Config;
 /**
  * Database Configuration
  */
+$db['default'] = array(
+    'dsn'   => '',
+    'hostname' => 'localhost',
+    'username' => 'root',
+    'password' => '',
+    'database' => 'store',
+    'dbdriver' => 'mysqli',
+    // ...
+);
+
 class Database extends Config
 {
     /**
@@ -82,4 +92,5 @@ class Database extends Config
             $this->defaultGroup = 'tests';
         }
     }
+
 }
