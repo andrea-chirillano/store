@@ -1,0 +1,71 @@
+.background {
+    background: linear-gradient(to top, #b8c9cf, #3a4249);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    width: 500px;
+}
+
+header {
+
+    padding: 10px;
+    text-align: center;
+}
+
+.product-list {
+    list-style: none;
+    padding: 0;
+}
+
+.product-item {
+    margin-bottom: 10px;
+}
+
+/* ... Otros estilos ... */
+
+.product-name {
+    display: block;
+    padding: 10px;
+    background-color: #f4f4f4;
+    text-decoration: none; /* Quitar subrayado */
+    color: #333;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.product-name:hover {
+    background-color: #ddd;
+}
+
+/* Cambiar color y estilos para los enlaces */
+.product-name a {
+    text-decoration: none;
+    color: #333;
+}
+
+.product-name a:hover {
+    text-decoration: underline; /* Añadir subrayado en hover si lo deseas */
+    color: #555;
+}
+
+.back_button {
+    color: white;
+    width: 100px;
+    height: 10%;
+}

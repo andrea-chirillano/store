@@ -4,6 +4,8 @@ namespace Config;
 
 use CodeIgniter\Config\AutoloadConfig;
 
+$autoload['libraries'] = array('database', 'url');
+
 /**
  * -------------------------------------------------------------------
  * AUTOLOADER CONFIGURATION
@@ -22,6 +24,7 @@ use CodeIgniter\Config\AutoloadConfig;
  */
 class Autoload extends AutoloadConfig
 {
+    
     /**
      * -------------------------------------------------------------------
      * Namespaces
